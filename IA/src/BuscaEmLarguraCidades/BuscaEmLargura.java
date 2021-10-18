@@ -78,7 +78,6 @@ public class BuscaEmLargura {
 					Node n = new Node(nosAtuais.get(0).getCidade().getConexoes().get(i), nosAtuais.get(0));
 					nosAtuais.add(n);
 				}
-				//nosAtuais.addAll(nosAtuais.get(0).getCidade().getConexoes());// PODE ESTAR ERRADO
 				cidadesVisitadas.add(nosAtuais.get(0).getCidade());
 				
 				System.out.print("\nNós a serem visitados: ");
